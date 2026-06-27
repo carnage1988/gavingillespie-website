@@ -7,9 +7,16 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="site-header dark-header">
-    <nav class="nav">
-      <a class="brand" href="index.html">GG</a>
+  <header class="topbar">
+    <nav class="topnav">
+      <a class="brand-lockup" href="index.html">
+        <span class="brand-mark">GG</span>
+        <span>
+          <strong>GAVIN GILLESPIE</strong>
+          <small>INFRASTRUCTURE • AUTOMATION • CLOUD</small>
+        </span>
+      </a>
+
       <div class="nav-links">
         <a href="pages/projects.html">Projects</a>
         <a href="pages/cv.html">Experience</a>
@@ -19,69 +26,100 @@
     </nav>
   </header>
 
-  <main>
-    <section class="brand-hero">
-      <p class="eyebrow">Gavin Gillespie</p>
-      <h1>I solve technical problems, then build better systems.</h1>
-      <p>
-        Technical Consultant working across Microsoft, Linux, Azure, networking and automation.
-        This website documents the projects I build, the problems I solve and what I learn along the way.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="pages/projects.html">Explore Projects</a>
-        <a class="button secondary" href="pages/cv.html">View Experience</a>
+  <main class="home-shell">
+    <section class="home-hero">
+      <div class="hero-copy">
+        <h1>I solve technical problems, then build <span>better systems.</span></h1>
+        <p>
+          Technical Consultant working across Microsoft, Linux, Azure, networking and automation.
+          Every project on this website documents a real problem, how I approach it, what I build and what I learn along the way.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="pages/projects.html">Explore Projects</a>
+          <a class="button secondary" href="pages/cv.html">Download CV</a>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <article><strong>17+</strong><span>Projects<br>Documented</span></article>
+        <article><strong>4+</strong><span>Years Technical<br>Consultancy</span></article>
+        <article><strong>40+</strong><span>Automation<br>Hours Saved</span></article>
+        <article><strong>100%</strong><span>Built From<br>My Home Lab</span></article>
       </div>
     </section>
 
-    <section class="featured-project">
-      <p class="eyebrow">Featured Project</p>
-      <h2>Ingres Housekeeping Automation</h2>
-      <p class="metric">40 minutes → 5 minutes</p>
-      <p>
-        Designed a Bash automation framework that reduced post-migration Ingres housekeeping
-        time by 87.5% across managed cloud environments.
-      </p>
-      <a class="button primary" href="pages/projects.html">Read Case Study</a>
+    <section class="feature-banner">
+      <div>
+        <p class="eyebrow">Featured Project</p>
+        <h2>Ingres Housekeeping Automation</h2>
+        <p>Bash automation framework that reduced post-migration Ingres housekeeping time across environments.</p>
+        <a href="pages/projects.html">Read Case Study →</a>
+      </div>
+
+      <div class="metric-panel">
+        <div><span>Reduced from</span><strong>40 min</strong></div>
+        <div class="arrow">→</div>
+        <div><span>Down to</span><strong>5 min</strong></div>
+        <div class="reduction">87.5% REDUCTION</div>
+      </div>
     </section>
 
-    <section class="project-grid">
-      <article class="project-card">
+    <section class="showcase-grid">
+      <article class="showcase-card">
         <p class="project-tag">Infrastructure</p>
         <h2>Enterprise Home Lab</h2>
         <p>Linux, Docker, UniFi networking, reverse proxying and self-hosted services.</p>
+        <a href="pages/projects.html">→</a>
       </article>
 
-      <article class="project-card">
-        <p class="project-tag">Portfolio Build</p>
+      <article class="showcase-card">
+        <p class="project-tag">Portfolio Project</p>
         <h2>Building This Website</h2>
         <p>Cloudflare, GitHub, HTML, CSS, Docker and self-hosted deployment.</p>
-        <a href="pages/project-website.html">View project →</a>
+        <a href="pages/project-website.html">→</a>
       </article>
 
-      <article class="project-card">
-        <p class="project-tag">Process Improvement</p>
-        <h2>Azure API Workflow</h2>
+      <article class="showcase-card">
+        <p class="project-tag">Cloud & Automation</p>
+        <h2>Azure API Improvement</h2>
         <p>Documentation and training that helped engineers use automation more consistently.</p>
+        <a href="pages/projects.html">→</a>
       </article>
     </section>
 
-    <section class="philosophy">
-      <h2>I don’t like not understanding how things work.</h2>
-      <p>
-        That mindset started with broken technology at home and still drives how I approach
-        systems, troubleshooting, automation and learning today.
-      </p>
-    </section>
+    <section class="bottom-grid">
+      <article class="status-card">
+        <h3>Current Lab Status</h3>
+        <div class="status-list">
+          <p><span></span>Docker<br><small>Running</small></p>
+          <p><span></span>Nginx Proxy Manager<br><small>Running</small></p>
+          <p><span></span>Vaultwarden<br><small>Running</small></p>
+          <p><span></span>Cloudflare<br><small>Running</small></p>
+          <p><span></span>Guacamole<br><small>Running</small></p>
+          <p><span></span>Uptime Kuma<br><small>Planned</small></p>
+        </div>
+      </article>
 
-    <section class="quote-card">
-      <blockquote>
-        “Once I get the itch to know something, I have to research it, understand it and be able to talk about it.”
-      </blockquote>
+      <article class="belief-card">
+        <p class="eyebrow">Why I Do This</p>
+        <h2>I don’t like not understanding how things work.</h2>
+        <p>That mindset started with broken technology at home and still drives how I approach systems, troubleshooting and automation.</p>
+        <a href="pages/about.html">Read My Story →</a>
+      </article>
+
+      <article class="quote-panel">
+        <p class="eyebrow">My Philosophy</p>
+        <blockquote>
+          “Once I get the itch to know something, I have to research it, understand it and be able to talk about it.”
+        </blockquote>
+      </article>
     </section>
   </main>
 
-  <footer class="footer">
-    <p><strong>GG</strong> · Built from Belfast · Hosted from my home lab · Powered by curiosity</p>
+  <footer class="footer brand-footer">
+    <span class="brand-mark">GG</span>
+    <p>Built from Belfast. Hosted from my home lab. Powered by curiosity.</p>
   </footer>
 </body>
 </html>

@@ -10,8 +10,8 @@
 ---
 
 ## Sprint 2
-- [ ] Finish About page
-- [ ] Finish Projects page
+- [x] Finish About page
+- [x] Finish Projects page
 - [ ] Finish CV page
 - [ ] Finish Contact page
 - [ ] Responsive navigation

@@ -3,56 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gavin Gillespie | Technical Consultant</title>
+  <title>Gavin Gillespie | Infrastructure • Automation • Cloud</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header dark-header">
     <nav class="nav">
-      <a class="logo" href="index.html">GG</a>
+      <a class="brand" href="index.html">GG</a>
       <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="pages/about.html">About</a>
         <a href="pages/projects.html">Projects</a>
-        <a href="pages/cv.html">CV</a>
+        <a href="pages/cv.html">Experience</a>
+        <a href="pages/about.html">About</a>
         <a href="pages/contact.html">Contact</a>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <p class="eyebrow">Infrastructure • Automation • Linux • Cloud</p>
-      <h1>Building infrastructure, improving systems, and learning by doing.</h1>
-      <p class="hero-text">
-        I’m Gavin — a Technical Consultant working across Microsoft, Linux, Azure,
-        networking and automation. This site documents my projects, home lab and
-        ongoing journey into infrastructure engineering.
+    <section class="brand-hero">
+      <p class="eyebrow">Gavin Gillespie</p>
+      <h1>I solve technical problems, then build better systems.</h1>
+      <p>
+        Technical Consultant working across Microsoft, Linux, Azure, networking and automation.
+        This website documents the projects I build, the problems I solve and what I learn along the way.
       </p>
       <div class="hero-actions">
-        <a class="button primary" href="pages/projects.html">Explore My Work</a>
-        <a class="button secondary" href="pages/cv.html">View CV</a>
+        <a class="button primary" href="pages/projects.html">Explore Projects</a>
+        <a class="button secondary" href="pages/cv.html">View Experience</a>
       </div>
     </section>
 
-    <section class="cards">
-      <article class="card">
-        <h2>Build</h2>
-        <p>Home lab infrastructure, Linux servers, Docker services and networking projects.</p>
+    <section class="featured-project">
+      <p class="eyebrow">Featured Project</p>
+      <h2>Ingres Housekeeping Automation</h2>
+      <p class="metric">40 minutes → 5 minutes</p>
+      <p>
+        Designed a Bash automation framework that reduced post-migration Ingres housekeeping
+        time by 87.5% across managed cloud environments.
+      </p>
+      <a class="button primary" href="pages/projects.html">Read Case Study</a>
+    </section>
+
+    <section class="project-grid">
+      <article class="project-card">
+        <p class="project-tag">Infrastructure</p>
+        <h2>Enterprise Home Lab</h2>
+        <p>Linux, Docker, UniFi networking, reverse proxying and self-hosted services.</p>
       </article>
-      <article class="card">
-        <h2>Improve</h2>
-        <p>Automation, documentation and process improvements that reduce engineering effort.</p>
+
+      <article class="project-card">
+        <p class="project-tag">Portfolio Build</p>
+        <h2>Building This Website</h2>
+        <p>Cloudflare, GitHub, HTML, CSS, Docker and self-hosted deployment.</p>
+        <a href="pages/project-website.html">View project →</a>
       </article>
-      <article class="card">
-        <h2>Learn</h2>
-        <p>Every project starts with a problem, then becomes an opportunity to understand something deeper.</p>
+
+      <article class="project-card">
+        <p class="project-tag">Process Improvement</p>
+        <h2>Azure API Workflow</h2>
+        <p>Documentation and training that helped engineers use automation more consistently.</p>
       </article>
+    </section>
+
+    <section class="philosophy">
+      <h2>I don’t like not understanding how things work.</h2>
+      <p>
+        That mindset started with broken technology at home and still drives how I approach
+        systems, troubleshooting, automation and learning today.
+      </p>
+    </section>
+
+    <section class="quote-card">
+      <blockquote>
+        “Once I get the itch to know something, I have to research it, understand it and be able to talk about it.”
+      </blockquote>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© Gavin Gillespie</p>
+    <p><strong>GG</strong> · Built from Belfast · Hosted from my home lab · Powered by curiosity</p>
   </footer>
 </body>
 </html>

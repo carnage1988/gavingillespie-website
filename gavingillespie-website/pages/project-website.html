@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Building This Website | Gavin Gillespie</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="../index.html">GG</a>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Project</p>
+      <h1>Building This Website</h1>
+      <p>A live portfolio project documenting how I built my own website using a custom domain, Cloudflare, GitHub, HTML, CSS and a self-hosted deployment path.</p>
+    </section>
+
+    <section class="full-width">
+      <div class="project-meta">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>GitHub</span>
+        <span>Cloudflare</span>
+        <span>Docker</span>
+        <span>Nginx</span>
+      </div>
+    </section>
+
+    <section class="two-column">
+      <article class="content-card">
+        <h2>The Problem</h2>
+        <p>I wanted a professional online presence that was more than just a digital CV. I wanted somewhere to document my projects, explain what I was learning and show the thought process behind the infrastructure I build.</p>
+      </article>
+
+      <article class="content-card">
+        <h2>The Goal</h2>
+        <ul>
+          <li>Build a clean, fast and professional portfolio website.</li>
+          <li>Use GitHub for source control and project history.</li>
+          <li>Use Cloudflare for DNS, SSL and edge protection.</li>
+          <li>Deploy the finished site through my own home infrastructure.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="full-width">
+      <h2>Architecture</h2>
+    </section>
+
+    <section class="diagram-card">
+      <img src="../assets/images/website-architecture.png" alt="Website hosting architecture diagram" />
+    </section>
+
+    <section class="two-column">
+      <article class="content-card">
+        <h2>What I Built</h2>
+        <p>The first version of the site was built using plain HTML and CSS. I chose this approach so I could understand every part of the structure before introducing more complex tooling later.</p>
+        <p>I created a public GitHub repository, built the initial folder structure, created the homepage and added responsive styling.</p>
+      </article>
+
+      <article class="content-card">
+        <h2>What I Learned</h2>
+        <ul>
+          <li>How relative paths work in a static website.</li>
+          <li>How to troubleshoot missing assets using browser developer tools.</li>
+          <li>How to structure a small web project cleanly.</li>
+          <li>How to use Git add, commit and push as part of a workflow.</li>
+          <li>How Cloudflare sits in front of a self-hosted web service.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="full-width">
+      <article class="content-card">
+        <h2>Next Steps</h2>
+        <ul>
+          <li>Deploy the website to Docker.</li>
+          <li>Publish it through Nginx Proxy Manager.</li>
+          <li>Add a downloadable CV page.</li>
+          <li>Add project pages for my home lab, networking and automation work.</li>
+        </ul>
+        <div class="project-actions">
+          <a class="button primary" href="projects.html">Back to Projects</a>
+          <a class="button secondary" href="https://github.com/carnage1988/gavingillespie-website" target="_blank">View GitHub Repo</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© Gavin Gillespie</p>
+  </footer>
+</body>
+</html>

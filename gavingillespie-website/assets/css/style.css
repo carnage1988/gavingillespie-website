@@ -669,3 +669,75 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Homepage refinement pass */
+
+.nav-links {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 0;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color .25s ease;
+}
+
+.nav-links a:hover {
+  color: var(--blue-light);
+}
+
+.site-logo {
+  height: 62px;
+  width: auto;
+  display: block;
+}
+
+.home-hero {
+  gap: 70px;
+  padding: 50px 0 42px;
+}
+
+.hero-copy h1 {
+  letter-spacing: -0.04em;
+}
+
+.button {
+  padding: 16px 28px;
+}
+
+.stats-grid {
+  gap: 18px;
+}
+
+.stats-grid article {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 26px 20px;
+}
+
+.stats-grid article:first-child {
+  border-left: 1px solid var(--border);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(37,99,235,.08), transparent 30%),
+    linear-gradient(var(--background), var(--background));
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .site-logo {
+    height: 52px;
+  }

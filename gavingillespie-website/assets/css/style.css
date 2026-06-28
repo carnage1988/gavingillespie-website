@@ -496,3 +496,42 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.tech-stack-wrap {
+  max-width: 1100px;
+  margin: 18px auto 34px;
+  padding: 0 24px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.tech-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #eef6ff;
+  border: 1px solid #bfdbfe;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 11px 18px;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: 0 8px 22px rgba(37, 99, 235, 0.08);
+}
+
+.tech-pill img {
+  width: 22px;
+  height: 22px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.card-grid-2 + .dark-feature,
+.card-grid-3 + .dark-feature {
+  margin-top: 40px;
+}

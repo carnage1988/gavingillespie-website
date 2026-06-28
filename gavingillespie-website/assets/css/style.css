@@ -535,3 +535,9 @@ a {
 .card-grid-3 + .dark-feature {
   margin-top: 40px;
 }
+
+.site-logo {
+  width: 58px;
+  height: 58px;
+  display: block;
+}
